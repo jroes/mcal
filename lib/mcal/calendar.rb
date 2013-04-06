@@ -12,11 +12,7 @@ module Mcal
       week = Array.new(7, nil)
       weeks = []
       Date.new(@year, month).step(by_day).each do |day|
-        if day.sunday?
-          week[0] = block.call(day)
-        else
-          week[day.cwday] = block.call(day)
-        end
+        week[day.wday] = block.call(day)
 
         # End the current week and start a new one
         if day.saturday?
