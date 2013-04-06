@@ -44,7 +44,7 @@ It's a really simple library. You give it a year and a month, and it'll give you
      [  8,  9,  10,  11,  12,  13,  14],
      [ 15, 16,  17,  18,  19,  20,  21],
      [ 22, 23, 'H', 'H',  26,  27,  28],
-     [ 29, 30,  31, nil, nil, nil, nil]
+     [ 29, 30,  31, nil, nil, nil, nil]]
 ```
 
 ## Contributing
